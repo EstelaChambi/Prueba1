@@ -37,6 +37,7 @@ public class Cliente extends Persona{
     }
     
     public static void inicializarLista(){
+
         Cliente c1  = new Cliente("Ana", "Perez","Rosas","xxxx","18-09","cli1");
         Cliente c2  = new Cliente("Juan", "Aguilar","Rodrigez","tttt","12-02","cli2");
         Cliente c3  = new Cliente("Pedro", "Condori","Ramirez","dddddd","02-12-09","cli3");
@@ -47,6 +48,7 @@ public class Cliente extends Persona{
         clientes.add(c3);
         clientes.add(c4);
         clientes.add(c5);
+
     }
     Cliente (String a,String b,String c,String d,String e,String f)
     {
