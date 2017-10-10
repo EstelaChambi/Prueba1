@@ -41,10 +41,12 @@ public class Cliente extends Persona{
         Cliente c2  = new Cliente("Juan", "Aguilar","Rodrigez","tttt","12-02","cli2");
         Cliente c3  = new Cliente("Pedro", "Condori","Ramirez","dddddd","02-12-09","cli3");
         Cliente c4  = new Cliente("Juan Angel", "Marquez","Saico","uuuu","12-02-09","cli4");
+        Cliente c5  = new Cliente("Angel", "Marquez","Saravia","uuuuu","12-02-09","cli5");
         clientes.add(c1);
         clientes.add(c2);
         clientes.add(c3);
         clientes.add(c4);
+        clientes.add(c5);
     }
     Cliente (String a,String b,String c,String d,String e,String f)
     {
