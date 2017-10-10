@@ -19,6 +19,7 @@ public class Persona {
     protected String correo;
     protected String fecha_nac;
     protected int edad;
+    protected String alias;
     
    Scanner lee=new Scanner (System.in);
    public static List<Persona> personas = new ArrayList<Persona>();
